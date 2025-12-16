@@ -99,3 +99,10 @@ git commit -m "Day X: <short meaningful message>"
 git push
 
 This keeps my commit history as a visible learning log.
+
+# Run native Playwright tests (default)
+npm test
+npm run test:pw
+
+# Run Cucumber BDD tests
+npm run test:bdd
