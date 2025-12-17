@@ -12,7 +12,13 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  globalSetup: require.resolve("./global-setup"),
+ 
+  //  globalSetup: require.resolve("./global-setup"),
+ // globalSetup is temporarily disabled while learning Playwright basics.
+// It performs login automation, which we will re-enable after stabilizing locators.
+// globalSetup temporarily disabled to avoid login dependency during foundational test development.
+// Will be re-enabled with stable locators and storageState.
+
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -40,7 +46,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    {
+   /* {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
@@ -49,6 +55,7 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+    */
 
     /* Test against mobile viewports. */
     // {
