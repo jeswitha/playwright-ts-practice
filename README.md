@@ -8,6 +8,23 @@ I’m building tests from **basics → advanced**, using multiple public practic
 - Site: https://practicesoftwaretesting.com/
 - Why: beginner-friendly UI, good for learning Playwright fundamentals (locators, navigation, assertions, simple flows)
 
+### ⚠️ Note on PracticeSoftwareTesting Automation
+
+While PracticeSoftwareTesting is a good learning site, I observed that it sometimes presents a
+"Just a moment..." security challenge when accessed via automated browsers (Playwright),
+even though the site loads normally in a regular Chrome browser.
+
+This appears to be due to bot-detection mechanisms that can intermittently block automation traffic.
+To keep my learning and CI execution reliable, I continue to document this site here,
+but use more automation-friendly practice sites (such as *The Internet*) for foundational
+and daily Playwright practice.
+
+I plan to revisit PracticeSoftwareTesting later using:
+- single-browser execution
+- slower test flows
+- authenticated storageState
+
+
 ---
 
 ## 🌐 Additional Practice Websites (Used Across Levels)
@@ -44,6 +61,10 @@ I’m building tests from **basics → advanced**, using multiple public practic
 | UI controls | ExpandTesting | Components, validations, edge cases |
 | Sorting & regression | Sauce Demo | Cart/checkout + list validations |
 | Locator mastery | Testing Playground | Challenging selectors + interactions |
+
+| Beginner | PracticeSoftwareTesting | Fundamentals (used when automation access is stable) |
+| Core fundamentals | The Internet | Reliable UI patterns and Playwright feature coverage |
+
 
 ---
 
