@@ -127,3 +127,88 @@ npm run test:pw
 
 # Run Cucumber BDD tests
 npm run test:bdd
+
+--------------------------------
+
+We’ll do Day 1 (Basics) today:
+
+Understand what a Playwright test is
+
+Run it
+
+Change it
+
+Write your first real test for PracticeSoftwareTesting
+
+Save progress to GitHub
+---------------------------------
+🟢 Day 2 — Learning to Interact with the Page
+
+Today you will learn, in this exact order:
+
+1️⃣ Clicking a link
+2️⃣ Checking navigation (URL + heading)
+3️⃣ Filling a form
+4️⃣ Waiting for dynamic loading
+5️⃣ Very gentle intro to Page Object Model (POM)
+---------------------------------
+
+Day 3 — Handling Common UI Patterns
+
+Today we’ll learn 4 core skills:
+
+1️⃣ Alerts (pop-ups)
+2️⃣ Dropdowns
+3️⃣ Checkboxes
+4️⃣ Debugging & screenshots (very basic)
+
+We’ll do one small test per concept.
+--------------------------------------------------
+Day-by-Day Structure (clear)
+Day 1
+
+Navigation
+
+First test
+
+Assertions
+
+Day 2
+
+Clicking
+
+Forms
+
+Dynamic waits
+
+Intro to POM
+
+Day 3 
+
+Alerts
+
+Dropdowns
+
+Checkboxes
+
+Basic debugging & screenshots
+
+Day 4 
+
+File upload/download
+
+Frames (iframes)
+
+Multiple tabs
+
+Improve POM structure
+
+Day 5
+
+Traces
+
+Debugging failures deeply
+
+Test retries
+
+Flaky test handling
