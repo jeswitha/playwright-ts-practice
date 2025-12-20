@@ -9,3 +9,7 @@ node_modules/
 .env
 .DS_Store
 
+# Test data outputs (generated)
+test-data/downloads/
+*.png
+

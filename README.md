@@ -164,7 +164,21 @@ Today we’ll learn 4 core skills:
 
 We’ll do one small test per concept.
 --------------------------------------------------
+🟣 Day 4 Goals
+
+File Upload
+
+File Download
+
+Iframes (Frames)
+
+New tab / multiple windows
+
+Small POM improvement (optional, light)
+----------------------------------------------
+
 Day-by-Day Structure (clear)
+
 Day 1
 
 Navigation
@@ -172,6 +186,7 @@ Navigation
 First test
 
 Assertions
+
 
 Day 2
 
@@ -183,6 +198,7 @@ Dynamic waits
 
 Intro to POM
 
+
 Day 3 
 
 Alerts
@@ -193,6 +209,7 @@ Checkboxes
 
 Basic debugging & screenshots
 
+
 Day 4 
 
 File upload/download
@@ -202,6 +219,7 @@ Frames (iframes)
 Multiple tabs
 
 Improve POM structure
+
 
 Day 5
 
